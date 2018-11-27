@@ -5,8 +5,8 @@ import { Layout, Menu,
 //import logo from './logo.svg';
 
 import Catalog from './components/catalog';
-import Form from './components/steps';
-
+// import Form from './components/steps';
+//           <Form/>
 import './App.css';
 import 'antd/dist/antd.css';
 
@@ -27,10 +27,9 @@ class App extends Component {
           <br/>
           <hr/>
           <br/>
-          <Form/>
         </Content>
         <Footer style={{ textAlign: 'center' }}>
-          Ant Design ©2018 Created by Ant UED
+          Experiensa ©2018 Created by Sevinci Sàrl
         </Footer>
       </Layout>
     );
