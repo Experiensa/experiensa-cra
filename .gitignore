@@ -1,0 +1,21 @@
+# dependencies
+/react/node_modules
+/react/.pnp
+/react/.pnp.js
+
+# testing
+/react/coverage
+
+# production
+#/build
+
+# misc
+/react/.DS_Store
+/react/.env.local
+/react/.env.development.local
+/react/.env.test.local
+/react/.env.production.local
+
+/react/npm-debug.log*
+/react/yarn-debug.log*
+/react/yarn-error.log*
