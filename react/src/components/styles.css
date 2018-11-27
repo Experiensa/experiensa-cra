@@ -21,8 +21,8 @@
 .card_price {
     width: 100px;
     height: 35px;
-    background-color: rgb(66, 66, 66);
     position: absolute;
+    background-color: rgba(53,126,221, 0.5);
     top: 120px;
     left: 0px;
     color: rgb(250, 250, 250);

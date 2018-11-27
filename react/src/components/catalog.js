@@ -111,7 +111,7 @@ class Catalog extends React.Component {
           <br/>
           <p>{date_from} - {date_to}</p>
           <p>{res.number_of_days} jours/{res.number_of_nights} nuits</p>
-          <span className="card_price">{formattedPrice}</span>
+          <div className="card_price">{formattedPrice}</div>
         </div>
       ),
       url: res.link,
