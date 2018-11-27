@@ -6,6 +6,9 @@
 .css-1p9dq2h {
   height: 320px !important;
   position: relative;
+  min-width: 250px !important;
+  max-width: 300px !important;
+  margin-bottom: 10px !important;
 }
 
 .css-1pwe92q.e1hnx4sx0{

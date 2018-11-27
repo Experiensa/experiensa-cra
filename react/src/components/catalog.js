@@ -106,12 +106,13 @@ class Catalog extends React.Component {
       title: (<h3 className="tc f3 lh-title avenir">{res.title}</h3>),
       description: (
         <div className="tc">
-          <span className="slogan">{slogan}</span>
-          <br/>
-          <br/>
           <p>{date_from} - {date_to}</p>
           <p>{res.number_of_days} jours/{res.number_of_nights} nuits</p>
           <div className="card_price">{formattedPrice}</div>
+          <br/>
+          <span className="slogan">{slogan}</span>
+
+          <br/>
         </div>
       ),
       url: res.link,
